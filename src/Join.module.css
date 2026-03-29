@@ -1,0 +1,78 @@
+.join {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #111111, #3a3a3a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 8px;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #888;
+  letter-spacing: 2px;
+  margin-bottom: 60px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(0, 0, 0, 0.774);
+  border: 10px double rgba(255, 255, 255, 0.979);
+  border-radius: 50px;
+  padding: 15px 50px;
+  text-decoration: none;
+  transition: all 0.3s;
+  min-width: 320px;
+  justify-content: center;
+}
+
+.item:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.4);
+  transform: translateY(-4px);
+}
+
+.icon {
+  font-size: 20px;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,45 @@
+.navbar {
+display: flex;
+justify-content:space-between;
+align-items:center;
+min-height: 68px;
+height: auto;
+padding: 0 20px;
+background-color: rgb(255, 250, 242);
+z-index: 1000;
+position: sticky;
+top: 0;
+}
+.logo {
+font-size: 25px;
+font-weight: bold;
+gap: 40px;
+align-items: center;
+display: flex;
+color: black;
+}
+.links {
+display: flex;
+gap: 100px;
+align-items: center;
+color: black;
+}
+.link {
+font-size: 16px;
+text-decoration: none;
+transition: all 0.3s;
+color: black;
+cursor: pointer;
+}
+.button {
+cursor: pointer;
+border-radius: 8px;
+background-color: black;
+color: whitesmoke;
+font-size: 12px;
+font-weight:bold;
+padding: 10px 19px;
+transition: all 0.3s;
+border: none;
+
+}

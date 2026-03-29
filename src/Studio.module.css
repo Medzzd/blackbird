@@ -1,0 +1,79 @@
+.studio {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a, #3a3a3a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  letter-spacing: 4px;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+}
+
+.teams {
+ display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 340px;
+  transition: all 0.7s;
+}
+
+.card:hover {
+  background: rgba(47, 74, 110, 0.774);
+  transform: translateY(-6px);
+}
+
+
+.cardTitle {
+  font-size: 24px;
+  font-weight: 500;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(240, 240, 240);
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+
+.cardText {
+  font-size: 15px;
+  color: #000000;
+  line-height: 1.8;
+  font-weight: bold;
+}
